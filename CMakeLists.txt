@@ -23,7 +23,7 @@ SET(BUILD_VERSION 1)
 OPTION(USE_SYSTEM_ZEROMQ "Use system zeromq" ON)
 
 # Config
-SET(PIDFILE "/var/run/zmqd.pid")
+SET(PIDFILE "/var/run/zmq-server.pid")
 
 # ZeroMQ (>= 4.0)
 MESSAGE(STATUS "Use system ZeroMQ library: ${USE_SYSTEM_ZEROMQ}")
